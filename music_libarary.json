@@ -1,0 +1,39 @@
+   song1:
+    image: nginx:latest
+    container_name: prog_m5_song1
+    environment:
+      title: "Adventure of a lifetime"
+    ports:
+      - "1001:80"
+
+  song2:
+    image: nginx:latest
+    container_name: prog_m5_song2
+    environment:
+      title: "I wonder"
+    ports:
+      - "1002:80"
+
+  song3:
+    image: nginx:latest
+    container_name: prog_m5_song3
+    environment:
+      title: "My way"
+    ports:
+      - "1003:80"
+
+  song4:
+    image: nginx:latest
+    container_name: prog_m5_song4
+    environment:
+      title: "Cake by the ocean"
+    ports:
+      - "1004:80"
+
+  song5:
+    image: nginx:latest
+    container_name: prog_m5_song5
+    environment:
+      title: "Can't hold us"
+    ports:
+      - "1005:80"
